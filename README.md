@@ -4,4 +4,5 @@ curl -O -k --user DATASTAX-USERNAME:PASSWORD -L https://downloads.datastax.com/e
 
 tar -xvzf dse-5.1.5-bin.tar.gz
 
+dse-5.1.5/bin/dse cassandra -R &
 
